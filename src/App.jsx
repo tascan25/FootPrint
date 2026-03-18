@@ -12,6 +12,8 @@ import Testimonials                 from "./components/Testimonials";
 import Contact                      from "./components/Contact";
 import Footer                       from "./components/Footer";
 import { FloatingCTA, EnquiryModal } from "./components/Overlays";
+import VideoSection from "./components/VideoSection";
+import Faq from "./components/Faq";
 
 export default function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -29,7 +31,9 @@ export default function App() {
         <Features />
         <Curriculum />
         <Gallery />
+        <VideoSection/>
         <Testimonials />
+        <Faq/>
         <Contact />
         <Footer />
         <FloatingCTA  onEnquire={open} />
