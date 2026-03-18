@@ -148,7 +148,7 @@ export default function Hero({ onEnquire }) {
               transition={{ duration: 3, repeat: Infinity }}
               className="absolute -top-3 -right-3 bg-white rounded-2xl shadow-xl px-4 py-2 border-2 border-orange-100"
             >
-              <div className="text-lg font-black text-slate-800" style={{ fontFamily: "'Fredoka One', cursive" }}>350+</div>
+              <div className="text-lg font-black text-slate-800" style={{ fontFamily: "'Fredoka One', cursive" }}>30+</div>
               <div className="text-xs font-bold text-slate-400">Centers 🏫</div>
             </motion.div>
             <motion.div
