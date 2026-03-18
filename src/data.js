@@ -20,8 +20,8 @@ export const childFade = {
 
 // ── Site Data ─────────────────────────────────────────────────────────────────
 export const STATS = [
-  { value: "20+",  label: "Years of Trust",     icon: "🏆" },
-  { value: "350+", label: "Centers Nationwide", icon: "🏫" },
+  { value: "14+",  label: "Years of Trust",     icon: "🏆" },
+  { value: "30+", label: "Centers Nationwide", icon: "🏫" },
   { value: "1.5L+",label: "Happy Children",     icon: "👶" },
   { value: "4.8★", label: "Parent Rating",      icon: "⭐" },
 ];
