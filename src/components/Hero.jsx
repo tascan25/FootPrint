@@ -103,7 +103,7 @@ export default function Hero({ onEnquire }) {
             </motion.button>
             <motion.a
               whileHover={{ scale: 1.04, y: -2 }}
-              href="tel:+918010000000"
+              href="tel:+918979669233"
               className="px-8 py-4 rounded-3xl font-black text-[#FF6B6B] text-base bg-white shadow-lg hover:shadow-xl border-2 border-orange-100"
             >
               📞 Call Us Now
