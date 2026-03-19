@@ -61,7 +61,7 @@ export default function Navbar({ onEnquire }) {
           {/* CTA */}
           <div className="flex items-center gap-3">
             <a
-              href="tel:+918010000000"
+              href="tel:+918979669233"
               className="hidden sm:flex items-center gap-1.5 text-sm font-bold text-slate-600 hover:text-[#FF6B6B] transition-colors"
             >
               <span className="text-lg">📞</span>
