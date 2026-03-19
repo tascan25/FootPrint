@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import InquiryForm from "./InquiryForm";
 
 const info = [
-  { icon: "📍", label: "Address",  value: "IP Extension, Patparganj, Delhi – 110092" },
-  { icon: "📞", label: "Phone",    value: "+91 80100 00000" },
+  { icon: "📍", label: "Address",  value: "VVIP Addresses G- Block, Flat No. G-101/102, Raj Nagar Extension (Ghaziabad)" },
+  { icon: "📞", label: "Phone",    value: "+91 8979669233" },
   { icon: "🕐", label: "Hours",    value: "Mon – Sat: 8:00 AM – 6:30 PM" },
   { icon: "✉️", label: "Email",    value: "admissions@footprintsedu.in" },
 ];
