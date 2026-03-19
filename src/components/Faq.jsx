@@ -267,14 +267,14 @@ export default function Faq() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="tel:+918010055055"
+              href="tel:+918979669233"
               className="flex items-center gap-2 px-7 py-3.5 rounded-2xl font-black text-white text-sm shadow-lg hover:scale-105 transition-transform"
               style={{ background: "linear-gradient(135deg, #FF6B6B, #FF9A3C)", boxShadow: "0 6px 20px rgba(255,107,107,0.35)" }}
             >
-              📞 Call Us: 8010055055
+              📞 Call Us: 8979669233
             </a>
             <a
-              href="https://wa.me/918010055055"
+              href="https://wa.me/918979669233"
               className="flex items-center gap-2 px-7 py-3.5 rounded-2xl font-black text-white text-sm shadow-lg hover:scale-105 transition-transform"
               style={{ background: "#25D366" }}
             >
