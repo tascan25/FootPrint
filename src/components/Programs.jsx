@@ -4,7 +4,7 @@ import { PROGRAMS } from "../data";
 import { stagger, childFade } from "../data";
 import { useToast } from "./Toast";
 
-const CONTACT_NUMBER = "+91 80100 00000";
+const CONTACT_NUMBER = "+91 8979669233";
 
 export default function Programs() {
   const ref = useRef(null);
