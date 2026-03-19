@@ -15,7 +15,7 @@ export function FloatingCTA({ onEnquire }) {
         style={{ background: "rgba(255,255,255,0.95)", backdropFilter: "blur(16px)" }}
       >
         <a
-          href="tel:+918010000000"
+          href="tel:+918979669233"
           className="flex-1 py-3.5 rounded-2xl font-black text-center text-white text-sm"
           style={{ background: "linear-gradient(135deg, #1A1A5E, #2D2D8E)" }}
         >
