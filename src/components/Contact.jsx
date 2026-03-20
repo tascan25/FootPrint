@@ -85,7 +85,7 @@ export default function Contact() {
             className="flex flex-wrap gap-3 mt-8"
           >
             <a
-              href="https://wa.me/918010000000"
+              href="https://wa.me/918979669233"
               className="flex items-center gap-2 px-5 py-3 rounded-2xl font-black text-white text-sm hover:scale-105 transition-transform"
               style={{ background: "#25D366" }}
             >

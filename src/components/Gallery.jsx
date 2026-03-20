@@ -117,7 +117,7 @@ export default function Gallery() {
             Want to see more? Come for a free visit and experience it yourself! 🏫
           </p>
           <a
-            href="https://wa.me/918010000000"
+            href="https://wa.me/918979669233"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-2xl font-black text-white text-sm shadow-lg hover:scale-105 transition-transform"
             style={{ background: "#25D366" }}
           >
