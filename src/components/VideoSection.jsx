@@ -170,7 +170,7 @@ export default function VideoSection() {
           {[
             { icon: "👨‍👩‍👧", label: "1.5 Lakh+ happy families" },
             { icon: "⭐",       label: "4.8 average parent rating" },
-            { icon: "📍",       label: "350+ centers across India" },
+            { icon: "📍",       label: "30+ centers across India" },
           ].map(({ icon, label }) => (
             <div
               key={label}
