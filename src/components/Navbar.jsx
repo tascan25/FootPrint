@@ -36,10 +36,10 @@ export default function Navbar({ onEnquire }) {
             </div>
             <div>
               <div className="text-xl font-display leading-tight" style={{ color: "#1A1A5E", fontFamily: "'Fredoka One', cursive" }}>
-                Footprints
+                Toy and Joy
               </div>
               <div className="text-xs font-bold text-orange-400 -mt-0.5 tracking-wide">
-                Play School
+                Playzone
               </div>
             </div>
           </a>

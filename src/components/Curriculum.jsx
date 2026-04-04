@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { IMAGES } from "../data";
 
 const pillars = [
-  { icon: "🧠", label: "Active Learning" },
-  { icon: "📅", label: "Plan-Do-Review" },
-  { icon: "🤝", label: "Social Skills" },
-  { icon: "💡", label: "Problem Solving" },
-  { icon: "💬", label: "Language Dev." },
-  { icon: "🎭", label: "Creative Arts" },
-  { icon: "🔢", label: "Early Numeracy" },
-  { icon: "🌿", label: "Nature & Science" },
+  { icon: "https://img.icons8.com/color/48/star--v1.png", label: "Core Skills" },
+  { icon: "https://img.icons8.com/color/48/handshake.png", label: "Personal & Social" },
+  { icon: "https://img.icons8.com/color/48/brain.png", label: "Cognitive Base" },
+  { icon: "https://img.icons8.com/color/48/idea.png", label: "Problem Solving" },
+  { icon: "https://img.icons8.com/color/48/chat.png", label: "Communicative Arts" },
+  { icon: "https://img.icons8.com/color/48/paint-palette.png", label: "Creative Thinking" },
+  { icon: "https://img.icons8.com/color/48/abc.png", label: "Language Base" },
+  { icon: "https://img.icons8.com/color/48/tablet.png", label: "Digital Literacy" },
 ];
 
 export default function Curriculum() {
@@ -34,7 +34,7 @@ export default function Curriculum() {
           <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
             <img
               src={IMAGES.classroom}
-              alt="Children learning in a Footprints classroom"
+              alt="Children learning in a Toy & Joy classroom"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(26,26,94,0.7) 0%, transparent 55%)" }} />
@@ -45,14 +45,14 @@ export default function Curriculum() {
             <div className="flex items-center gap-3 mb-3">
               <div className="text-3xl">🎓</div>
               <div>
-                <div className="text-white font-black text-lg" style={{ fontFamily: "'Fredoka One', cursive" }}>HighScope®</div>
-                <div className="text-white/70 text-xs font-bold uppercase tracking-widest">International Curriculum · From USA</div>
+                <div className="text-white font-black text-lg" style={{ fontFamily: "'Fredoka One', cursive" }}>Foundational Core®</div>
+                <div className="text-white/70 text-xs font-bold uppercase tracking-widest">Our Unique Core Curriculum · Founded in India</div>
               </div>
             </div>
             <div className="grid grid-cols-4 gap-1.5">
               {pillars.map((p) => (
                 <div key={p.label} className="rounded-xl px-1 py-1.5 text-center" style={{ background: "rgba(255,255,255,0.12)" }}>
-                  <div className="text-sm">{p.icon}</div>
+                  <img src={p.icon} alt={p.label} className="w-6 h-6 mx-auto" />
                   <div className="text-white/80 text-[9px] font-bold leading-tight mt-0.5">{p.label}</div>
                 </div>
               ))}
@@ -97,7 +97,7 @@ export default function Curriculum() {
             transition={{ delay: 0.1 }}
             className="text-slate-500 text-lg leading-relaxed mb-5 font-semibold"
           >
-            Footprints is the <strong className="text-slate-700">only preschool chain in India</strong> to use the HighScope® curriculum — a research-backed methodology from the University of Michigan that has transformed early education globally.
+            Toy & Joy is the <strong className="text-slate-700">only preschool chain in India</strong> to use the Foundational Core® curriculum — a research-backed methodology founded in India that has transformed early education globally.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -137,10 +137,10 @@ export default function Curriculum() {
             className="grid grid-cols-2 gap-3"
           >
             {[
-              { icon: "🧠", label: "Cognitive Dev.", color: "#A855F7" },
-              { icon: "💬", label: "Language Skills", color: "#5BC8F5" },
-              { icon: "🤝", label: "Social Growth",  color: "#4CAF50" },
-              { icon: "🎭", label: "Creative Arts",  color: "#FF6B6B" },
+              { icon: "🧠", label: "Cognitive Base",       color: "#A855F7" },
+              { icon: "💬", label: "Language Base",        color: "#5BC8F5" },
+              { icon: "🤝", label: "Personal & Social",    color: "#4CAF50" },
+              { icon: "🎨", label: "Creative Thinking",    color: "#FF6B6B" },
             ].map((item) => (
               <div key={item.label} className="flex items-center gap-3 bg-white rounded-2xl p-4 shadow-sm border border-slate-100">
                 <span className="text-2xl">{item.icon}</span>

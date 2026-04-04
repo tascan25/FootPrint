@@ -45,7 +45,7 @@ export default function VideoSection() {
             style={{ fontFamily: "'Fredoka One', cursive" }}
           >
             What Parents Say{" "}
-            <span className="grad-text">About Footprints?</span> 💛
+            <span className="grad-text">About Toy and Joy Playzone?</span> 💛
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -141,9 +141,9 @@ export default function VideoSection() {
                 {/* Corner logo badge */}
                 <div className="absolute top-5 left-5 bg-white/90 backdrop-blur rounded-2xl px-4 py-2 shadow-lg">
                   <span className="text-sm font-black" style={{ fontFamily: "'Fredoka One', cursive", color: "#1A1A5E" }}>
-                    🐾 Footprints
+                    🐾 Toy and Joy
                   </span>
-                  <div className="text-[10px] font-bold text-orange-500 -mt-0.5">Pre-School & Day Care</div>
+                  <div className="text-[10px] font-bold text-orange-500 -mt-0.5">Pre-School & Playzone</div>
                 </div>
               </div>
             ) : (

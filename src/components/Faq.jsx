@@ -19,7 +19,12 @@ const FAQS = [
   },
   {
     q: "What is the teacher-to-student ratio in your preschool?",
-    a: "We maintain a 1:10 teacher-to-student ratio, ensuring personalized attention and a nurturing learning environment.",
+    a: `Our teacher-to-student ratios are tailored to each group:
+• Playgroup: 1: 12
+• Nur: 1: 15
+• Lkg: 1: 18
+• Ukg: 25:
+`,
     icon: "👩‍🏫",
   },
   {
@@ -28,18 +33,18 @@ const FAQS = [
     icon: "🍱",
   },
   {
-    q: "Is Footprints Preschool in I.P. Extension, New Delhi safe for young children?",
+    q: "Is Toy and Joy Playzone Preschool in Raj Nagar Extension, Ghaziabad safe for young children?",
     a: "Yes. Safety is our top priority. The centre follows strict safety protocols including secure entry–exit systems, CCTV surveillance, child-safe infrastructure, and trained staff to ensure a safe environment for every child.",
     icon: "🛡️",
   },
   {
-    q: "Does Footprints I.P. Extension, New Delhi provide live CCTV access to parents?",
+    q: "Does Toy and Joy Playzone Raj Nagar Extension, Ghaziabad provide live CCTV access to parents?",
     a: "Yes. Parents receive secure live CCTV access, allowing them to monitor their child in real time during school or daycare hours for complete peace of mind.",
     icon: "📹",
   },
   {
-    q: "Is Footprints suitable for working parents?",
-    a: "Absolutely. Our flexible daycare timings, extended care options, and structured routine make Footprints an ideal choice for working parents in I.P. Extension, New Delhi and nearby areas.",
+    q: "Is Toy and Joy Playzone suitable for working parents?",
+    a: "Absolutely. Our flexible daycare timings, extended care options, and structured routine make Toy and Joy Playzone an ideal choice for working parents in Raj Nagar Extension, Ghaziabad and nearby areas.",
     icon: "💼",
   },
   {
@@ -53,22 +58,22 @@ const FAQS = [
     icon: "✅",
   },
   {
-    q: "How does Footprints help children adjust during the initial days?",
+    q: "How does Toy and Joy Playzone help children adjust during the initial days?",
     a: "We follow a gentle settling-in process, allowing children to adapt gradually with emotional support, familiarization activities, and close communication with parents.",
     icon: "🤗",
   },
   {
-    q: "How does Footprints communicate with parents?",
+    q: "How does Toy and Joy Playzone communicate with parents?",
     a: "Parents receive regular updates, daily activity reports, photos, and notifications through digital platforms, ensuring transparency and strong parent-school communication.",
     icon: "📱",
   },
   {
-    q: "What makes Footprints different from other preschools in I.P. Extension, New Delhi?",
-    a: "Footprints stands out due to its live CCTV access, research-driven curriculum, strong safety standards, trained staff, and focus on holistic child development.",
+    q: "What makes Toy and Joy Playzone different from other preschools in Raj Nagar Extension, Ghaziabad?",
+    a: "Toy and Joy Playzone stands out due to its live CCTV access, research-driven curriculum, strong safety standards, trained staff, and focus on holistic child development.",
     icon: "🌟",
   },
   {
-    q: "How can I schedule a visit or take admission at I.P. Extension, New Delhi?",
+    q: "How can I schedule a visit or take admission at Raj Nagar Extension, Ghaziabad?",
     a: "Parents can easily schedule a centre visit, counselling session, or admission enquiry by filling out the form on the website or contacting the centre directly.",
     icon: "📅",
   },
@@ -211,7 +216,7 @@ export default function Faq() {
             transition={{ delay: 0.25 }}
             className="text-slate-500 max-w-xl mx-auto text-lg font-semibold"
           >
-            Everything parents want to know before choosing Footprints for their little one.
+            Everything parents want to know before choosing Toy and Joy Playzone for their little one.
           </motion.p>
         </div>
 

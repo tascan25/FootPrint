@@ -21,7 +21,7 @@ export const childFade = {
 // ── Site Data ─────────────────────────────────────────────────────────────────
 export const STATS = [
   { value: "14+",  label: "Years of Trust",     icon: "🏆" },
-  { value: "30+", label: "Centers Nationwide", icon: "🏫" },
+  { value: "", label: "Single Premier Location in Raj Nagar Extension ", icon: "🏫" },
   { value: "1.5L+",label: "Happy Children",     icon: "👶" },
   { value: "4.8★", label: "Parent Rating",      icon: "⭐" },
 ];
@@ -124,11 +124,11 @@ export const KEYWORDS = [
 
 export const FEATURES = [
   { icon: "📹", title: "Live CCTV Access",       desc: "Watch your child in real-time from your phone during school hours.",       color: "#FF6B6B" },
-  { icon: "🍱", title: "Nutritious Meals",        desc: "Fresh, home-like meals planned by dietitians with monthly menus.",         color: "#4CAF50" },
-  { icon: "📱", title: "ParentConnect App",       desc: "Instant updates — activities, photos, naps, meals — all in one app.",     color: "#5BC8F5" },
-  { icon: "🎓", title: "HighScope® Curriculum",  desc: "Internationally acclaimed, research-backed methodology from the USA.",     color: "#A855F7" },
+  // { icon: "🍱", title: "Nutritious Meals",        desc: "Fresh, home-like meals planned by dietitians with monthly menus.",         color: "#4CAF50" },
+  { icon: "📱", title: "Dedicated Storytelling",       desc: "Enriching imagination and language skills with regular storyteller sessions and a curated library.",     color: "#5BC8F5" },
+  { icon: "🎓", title: "CBSE Based Curriculum",  desc: "A comprehensive early foundation designed around the CBSE framework, preparing children for future academic excellence and holistic development.",    color: "#A855F7" },
   { icon: "🚌", title: "GPS-Tracked Transport",  desc: "Secure school vans with GPS tracking and trained female attendants.",      color: "#FF9A3C" },
-  { icon: "🏥", title: "First-Aid Trained Staff", desc: "Every educator is certified in child development and pediatric first aid.", color: "#FF6EC7" },
+  { icon: "🏥", title: "Fully Baby-Proofed Learning Spaces", desc: "Our school is meticulously designed to be baby-proof, with soft edges on furniture, cushioned floors, and safe, non-toxic baby-proof toys that meet international safety standards. Rest assured your little ones are in a secure and stimulating environment.", color: "#FF6EC7" },
 ];
 
 export const TESTIMONIALS = [

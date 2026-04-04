@@ -80,10 +80,9 @@ export default function Hero({ onEnquire }) {
             transition={{ duration: 0.7, delay: 0.35 }}
             className="text-lg text-slate-500 leading-relaxed mb-8 max-w-lg font-semibold"
           >
-            India's most trusted play school — nurturing your child's curiosity, confidence, and character
-            through the internationally acclaimed{" "}
-            <span className="text-[#FF6B6B] font-black">HighScope®</span>{" "}
-            curriculum for 20+ years.
+            A decade of experience. A lifetime of trust. Choose Toy and Joy for safe, nurturing, and play based learning enviornment where every child's potential is realized. We offer personalized attention in a stimulating space designed for curiosity. Visit us and see the difference{" "}
+            {/* <span className="text-[#FF6B6B] font-black">HighScope®</span>{" "}
+            curriculum for 20+ years. */}
           </motion.p>
 
           <motion.div

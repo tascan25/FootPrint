@@ -46,7 +46,7 @@ export default function Programs() {
             className="text-4xl sm:text-5xl text-slate-800 mb-4"
             style={{ fontFamily: "'Fredoka One', cursive" }}
           >
-            The Right Program for <span className="grad-text">Every Little Star</span> ⭐
+            Unlocking Every Child's Unique <span className="grad-text">Superpowers</span> ⭐
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -55,7 +55,7 @@ export default function Programs() {
             transition={{ delay: 0.2 }}
             className="text-slate-500 max-w-xl mx-auto text-lg font-semibold"
           >
-            Age-appropriate journeys designed to nurture holistic development at every stage of childhood.
+          Tailored educational pathways that foster individual growth, critical thinking, and a foundational love for lifelong learning from day one.
           </motion.p>
         </div>
 

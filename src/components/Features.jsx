@@ -30,7 +30,7 @@ export default function Features() {
             viewport={{ once: true }}
             className="inline-block bg-white/10 text-white text-sm font-black px-4 py-1.5 rounded-full mb-4 uppercase tracking-wide border border-white/20"
           >
-            ✨ Why Footprints
+            ✨ Why Toy and Joy Playzone
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 30 }}

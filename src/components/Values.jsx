@@ -28,7 +28,7 @@ export default function Values() {
             viewport={{ once: true }}
             className="inline-block bg-sky-100 text-sky-600 text-sm font-black px-4 py-1.5 rounded-full mb-4 uppercase tracking-wide"
           >
-            💎 Our Promise to You
+            💎 Discover the difference Toy and Joy Makes
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
@@ -38,8 +38,8 @@ export default function Values() {
             className="text-4xl sm:text-5xl text-slate-800 mb-4"
             style={{ fontFamily: "'Fredoka One', cursive" }}
           >
-            9 Reasons Parents{" "}
-            <span className="grad-text-sky">Love Footprints</span> 💙
+            Unlock your child potential in our safe, play focused  {" "}
+            <span className="grad-text-sky"> environment</span> 💙
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -48,7 +48,7 @@ export default function Values() {
             transition={{ delay: 0.2 }}
             className="text-slate-500 max-w-xl mx-auto text-lg font-semibold"
           >
-            Every value we hold isn't just a promise — it's built into everything we do, every single day.
+            Explore our pillars of holistic development, meticulously crafted to nuture the whole child. See how we make learning a joy!
           </motion.p>
         </div>
 
@@ -113,11 +113,10 @@ export default function Values() {
             className="text-3xl text-slate-800 mb-3"
             style={{ fontFamily: "'Fredoka One', cursive" }}
           >
-            Not Just a School — A Second Home
+           Your child's most joyful and engaging learning adventure
           </h3>
           <p className="text-slate-500 max-w-2xl mx-auto text-base font-semibold leading-relaxed">
-            At Footprints, we believe every child is a universe of potential. Our job is to give them the safe, joyful,
-            stimulating environment they need to discover who they truly are — and fall in love with learning.
+           Why choose Toy & Joy over other play schools? At Toy & Joy Play Zone, we are dedicated to creating a vibrant, safe, and stimulating environment where your child can flourish. We offer a curriculum built on research-backed, play-based learning that fosters cognitive, social, and emotional development. Our highly trained and caring educators are passionate about unlocking each child's unique potential, providing personalized attention and a love for discovery. With state-of-the-art play zones, a commitment to holistic development, and a strong focus on community, Toy & Joy provides an unmatched foundation for a lifelong love of learning and future success.
           </p>
         </motion.div>
       </div>
