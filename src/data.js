@@ -1,4 +1,22 @@
 // ── Shared animation helpers ──────────────────────────────────────────────────
+import image1 from '../src/assets/image/image1.jpg'
+import image2 from '../src/assets/image/image2.jpg'
+import image3 from '../src/assets/image/image3.jpg'
+import image4 from '../src/assets/image/image4.jpg'
+import image5 from '../src/assets/image/image5.jpg'
+import image6 from '../src/assets/image/image6.jpg'
+import image7 from '../src/assets/image/image7.jpg'
+import image8 from '../src/assets/image/image8.jpg'
+import image9 from '../src/assets/image/image9.jpg'
+import image10 from '../src/assets/image/image10.jpg'
+import image11 from '../src/assets/image/image11.jpg'
+import image12 from '../src/assets/image/image12.jpg'
+import image13 from '../src/assets/image/image13.jpg'
+import image14 from '../src/assets/image/image14.jpg'
+import image15 from '../src/assets/image/image15.jpg'
+import image16 from '../src/assets/image/image16.jpg'
+import image17 from '../src/assets/image/image17.jpg'
+
 export const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   show: (delay = 0) => ({
@@ -22,14 +40,14 @@ export const childFade = {
 export const STATS = [
   { value: "14+",  label: "Years of Trust",     icon: "🏆" },
   { value: "1", label: "Single Premier Location in Raj Nagar Extension ", icon: "🏫" },
-  { value: "1.5L+",label: "Happy Children",     icon: "👶" },
+  { value: "1.5K+",label: "Happy Children",     icon: "👶" },
   { value: "4.8★", label: "Parent Rating",      icon: "⭐" },
 ];
 
 export const PROGRAMS = [
   {
-    title: "Playgroup",
-    age: "1.5 – 2.5 yrs",
+    title: "Playway group",
+    age: "2.3 – 3 yrs",
     icon: "🧸",
     color: "#FF6B6B",
     bg: "#FFF0F0",
@@ -37,8 +55,8 @@ export const PROGRAMS = [
     desc: "First steps into the world — through sensory play, stories, and new friends.",
   },
   {
-    title: "Pre-Nursery",
-    age: "2.5 – 3 yrs",
+    title: "Toddler",
+    age: "1.5 – 2 yrs",
     icon: "🎨",
     color: "#FF9A3C",
     bg: "#FFF5EC",
@@ -55,7 +73,7 @@ export const PROGRAMS = [
     desc: "Foundational literacy, numeracy, and social-emotional growth.",
   },
   {
-    title: "Junior KG",
+    title: "LKG",
     age: "4 – 5 yrs",
     icon: "🔬",
     color: "#5BC8F5",
@@ -64,7 +82,7 @@ export const PROGRAMS = [
     desc: "School readiness through critical thinking and hands-on learning.",
   },
   {
-    title: "Senior KG",
+    title: "UKG",
     age: "5 – 6 yrs",
     icon: "🚀",
     color: "#A855F7",
@@ -74,7 +92,7 @@ export const PROGRAMS = [
   },
   {
     title: "Day Care",
-    age: "6 months+",
+    age: "9 months+",
     icon: "🌙",
     color: "#FF6EC7",
     bg: "#FFF0FB",
@@ -164,11 +182,28 @@ export const IMAGES = {
 
   // Gallery photos
   gallery: [
-    "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=600&auto=format&fit=crop&q=80",
+    // "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&auto=format&fit=crop&q=80",
+    // "https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=600&auto=format&fit=crop&q=80",
+    // "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=600&auto=format&fit=crop&q=80",
+    // "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&auto=format&fit=crop&q=80",
+    // "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop&q=80",
+    // "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=600&auto=format&fit=crop&q=80",
+    image1,
+    image2,
+    image3,
+    image4,
+    image5,
+    image6,
+    image7,
+    image8,
+    image9,
+    image10,
+    image11,
+    image12,
+    image13,
+    image14,
+    image15,
+    image16,
+    image17,
   ],
 };

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const links = {
-  Programs: ["Playgroup", "Pre-Nursery", "Nursery", "Junior KG", "Senior KG", "Day Care"],
+  Programs: ["Playgroup", "Toddler", "Nursery", "LKG", "UKG", "Day Care"],
   Company: ["About Us", "Our Story", "Centers Near You", "Careers", "News & Awards"],
   Support: ["FAQs", "Admissions Process", "Fee Structure", "Privacy Policy", "Terms of Use"],
 };
@@ -26,9 +26,9 @@ export default function Footer() {
                   className="text-xl text-white"
                   style={{ fontFamily: "'Fredoka One', cursive" }}
                 >
-                  Footprints
+                  Toy and Joy Playzone
                 </div>
-                <div className="text-xs font-bold text-orange-400 -mt-0.5">Play School</div>
+                <div className="text-xs font-bold text-orange-400 -mt-0.5">PlaySchool</div>
               </div>
             </div>
             <p className="text-slate-400 text-sm font-semibold leading-relaxed mb-6">
@@ -86,7 +86,7 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-slate-500 text-sm font-semibold">
-            © 2025 Footprints Childcare Pvt. Ltd. All rights reserved.
+            © 2025 Toy and Joy Playzone Playschool Pvt. Ltd. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-slate-500 text-sm font-semibold">
             <span>Made with</span>

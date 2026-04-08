@@ -55,7 +55,7 @@ export default function Hero({ onEnquire }) {
             className="inline-flex items-center gap-2 bg-white rounded-full px-4 py-2 mb-6 shadow-md border border-green-100"
           >
             <span className="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-sm font-black text-slate-700">Admissions Open — 2025–26 🎉</span>
+            <span className="text-sm font-black text-slate-700">Admissions Open — 2026–27 🎉</span>
           </motion.div>
 
           <motion.h1
@@ -147,8 +147,8 @@ export default function Hero({ onEnquire }) {
               transition={{ duration: 3, repeat: Infinity }}
               className="absolute -top-3 -right-3 bg-white rounded-2xl shadow-xl px-4 py-2 border-2 border-orange-100"
             >
-              <div className="text-lg font-black text-slate-800" style={{ fontFamily: "'Fredoka One', cursive" }}>30+</div>
-              <div className="text-xs font-bold text-slate-400">Centers 🏫</div>
+              <div className="text-lg font-black text-slate-800" style={{ fontFamily: "'Fredoka One', cursive" }}>1</div>
+              <div className="text-xs font-bold text-slate-400">Center 🏫</div>
             </motion.div>
             <motion.div
               animate={{ y: [0, -8, 0] }}

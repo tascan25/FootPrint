@@ -86,13 +86,13 @@ export default function Gallery() {
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4"
                 style={{ background: "linear-gradient(to top, rgba(26,26,94,0.75) 0%, transparent 60%)" }}
               >
-                <span className="text-white font-black text-sm drop-shadow">
+                {/* <span className="text-white font-black text-sm drop-shadow">
                   {captions[i]}
-                </span>
+                </span> */}
               </div>
 
               {/* Corner emoji badge */}
-              <motion.div
+              {/* <motion.div
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
@@ -100,7 +100,7 @@ export default function Gallery() {
                 className="absolute top-3 right-3 w-9 h-9 rounded-xl bg-white/90 flex items-center justify-center text-lg shadow-md"
               >
                 {["🌟", "📚", "🎨", "🔬", "🌿", "🤝"][i]}
-              </motion.div>
+              </motion.div> */}
             </motion.div>
           ))}
         </motion.div>

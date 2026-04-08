@@ -5,7 +5,7 @@ const info = [
   { icon: "📍", label: "Address",  value: "VVIP Addresses G- Block, Flat No. G-101/102, Raj Nagar Extension (Ghaziabad)" },
   { icon: "📞", label: "Phone",    value: "+91 8979669233" },
   { icon: "🕐", label: "Hours",    value: "Mon – Sat: 8:00 AM – 6:30 PM" },
-  { icon: "✉️", label: "Email",    value: "admissions@footprintsedu.in" },
+  { icon: "✉️", label: "Email",    value: "admissions@toyandjoyplayzoneplayschool.in" },
 ];
 
 export default function Contact() {
@@ -50,7 +50,7 @@ export default function Contact() {
             transition={{ delay: 0.15 }}
             className="text-blue-200 font-semibold mb-8 text-lg leading-relaxed"
           >
-            Meet our team, tour the colorful classrooms, and see firsthand why thousands of Delhi parents choose Footprints for their little ones.
+            Meet our team, tour the colorful classrooms, and see firsthand why thousands of Delhi parents choose Toy and Joy playzone for their little ones.
           </motion.p>
 
           <div className="space-y-5">

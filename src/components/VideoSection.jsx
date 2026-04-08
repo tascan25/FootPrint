@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import video from '../assets/video/video.mp4'
 
 // Replace this with the actual YouTube video ID from the original website
 const VIDEO_ID = "_6MlfeJ-Q4o"; // placeholder – swap with real ID
@@ -80,8 +81,8 @@ export default function VideoSection() {
               <div className="absolute inset-0">
                 {/* Thumbnail image (YouTube auto-thumbnail) */}
                 <img
-                  src={`https://img.youtube.com/vi/${VIDEO_ID}/maxresdefault.jpg`}
-                  alt="Parents Speak About Footprints"
+                  src={video}
+                  alt="Parents Speak About Toy and Joy Playzone"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     // Fallback to a kids-themed gradient if thumbnail fails
@@ -150,8 +151,8 @@ export default function VideoSection() {
               /* ── Actual YouTube embed ── */
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src={`https://www.youtube.com/embed/${VIDEO_ID}?autoplay=1&rel=0&modestbranding=1`}
-                title="What Parents Speak About Footprints?"
+                src={video}
+                title="What Parents Speak About Toy and Joy Playzone?"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -168,9 +169,9 @@ export default function VideoSection() {
           className="flex flex-wrap justify-center gap-4 mt-10"
         >
           {[
-            { icon: "👨‍👩‍👧", label: "1.5 Lakh+ happy families" },
+            { icon: "👨‍👩‍👧", label: "1.5K+ happy families" },
             { icon: "⭐",       label: "4.8 average parent rating" },
-            { icon: "📍",       label: "30+ centers across India" },
+            { icon: "📍",       label: "Raj Nagar Extension" },
           ].map(({ icon, label }) => (
             <div
               key={label}

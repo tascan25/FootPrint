@@ -53,7 +53,7 @@ export default function InquiryForm({ dark = false }) {
             <input placeholder="Child's Age" value={form.age} onChange={set("age")} className={inputClass} />
             <select value={form.program} onChange={set("program")} className={inputClass}>
               <option value="">Program</option>
-              {["Playgroup","Pre-Nursery","Nursery","Junior KG","Senior KG","Day Care"].map((p) => (
+              {["Playgroup","Toddler","Nursery","LKG","UKG","Day Care"].map((p) => (
                 <option key={p}>{p}</option>
               ))}
             </select>
