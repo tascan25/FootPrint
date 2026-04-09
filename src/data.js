@@ -51,7 +51,7 @@ export const PROGRAMS = [
     icon: "🧸",
     color: "#FF6B6B",
     bg: "#FFF0F0",
-    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&auto=format&fit=crop&q=80",
+    image: image3,
     desc: "First steps into the world — through sensory play, stories, and new friends.",
   },
   {
@@ -60,7 +60,7 @@ export const PROGRAMS = [
     icon: "🎨",
     color: "#FF9A3C",
     bg: "#FFF5EC",
-    image: "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=600&auto=format&fit=crop&q=80",
+    image: image11,
     desc: "Building curiosity and early language skills through creative exploration.",
   },
   {
@@ -69,7 +69,7 @@ export const PROGRAMS = [
     icon: "📚",
     color: "#4CAF50",
     bg: "#F0FFF0",
-    image: "https://images.unsplash.com/photo-1598901865264-4f5f51f7a1ab?w=600&auto=format&fit=crop&q=80",
+    image: image7,
     desc: "Foundational literacy, numeracy, and social-emotional growth.",
   },
   {
@@ -78,7 +78,7 @@ export const PROGRAMS = [
     icon: "🔬",
     color: "#5BC8F5",
     bg: "#F0FBFF",
-    image: "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?w=600&auto=format&fit=crop&q=80",
+    image: image4,
     desc: "School readiness through critical thinking and hands-on learning.",
   },
   {
@@ -87,7 +87,7 @@ export const PROGRAMS = [
     icon: "🚀",
     color: "#A855F7",
     bg: "#F8F0FF",
-    image: "https://images.unsplash.com/photo-1604881989793-466aca8dd319?w=600&auto=format&fit=crop&q=80",
+    image: image3,
     desc: "Advanced curriculum building confidence for primary school.",
   },
   {
@@ -96,7 +96,7 @@ export const PROGRAMS = [
     icon: "🌙",
     color: "#FF6EC7",
     bg: "#FFF0FB",
-    image: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=600&auto=format&fit=crop&q=80",
+    image: image10,
     desc: "Safe, nurturing after-school care with trained caregivers.",
   },
 ];
