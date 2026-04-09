@@ -87,7 +87,7 @@ export const PROGRAMS = [
     icon: "🚀",
     color: "#A855F7",
     bg: "#F8F0FF",
-    image: image3,
+    image: image5,
     desc: "Advanced curriculum building confidence for primary school.",
   },
   {
