@@ -16,6 +16,8 @@ import image14 from '../src/assets/image/image14.jpg'
 import image15 from '../src/assets/image/image15.jpg'
 import image16 from '../src/assets/image/image16.jpg'
 import image17 from '../src/assets/image/image17.jpg'
+import image18 from '../src/assets/image/image18.jpeg'
+import image19 from '../src/assets/image/image19.jpeg'
 
 export const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -176,8 +178,8 @@ export const IMAGES = {
 
   // About / Curriculum
   classroom:   "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=900&auto=format&fit=crop&q=80",
-  painting:    "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=900&auto=format&fit=crop&q=80",
-  reading:     "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&auto=format&fit=crop&q=80",
+  painting:    image18,
+  reading:     image19,
   outdoor:     "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=900&auto=format&fit=crop&q=80",
 
   // Gallery photos
