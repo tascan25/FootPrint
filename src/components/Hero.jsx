@@ -136,7 +136,7 @@ export default function Hero({ onEnquire }) {
             <div className="rounded-3xl overflow-hidden shadow-xl h-52">
               <img
                 src={IMAGES.heroKids}
-                alt="Happy children at Footprints Play School"
+                alt="Happy children at Toy and Joy Playzone Play School"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 rounded-3xl" style={{ background: "linear-gradient(to top, rgba(255,107,107,0.55) 0%, transparent 60%)" }} />

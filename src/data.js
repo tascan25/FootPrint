@@ -154,7 +154,7 @@ export const FEATURES = [
 export const TESTIMONIALS = [
   {
     name: "Priya Sharma", role: "Mom of Aarav, 4 yrs", avatar: "👩", rating: 5,
-    text: "Footprints has been a second home for my son. The teachers are incredibly nurturing and the ParentConnect app keeps me updated all day. Absolutely the best decision we made!",
+    text: "Toy and Joy Playzone has been a second home for my son. The teachers are incredibly nurturing and the ParentConnect app keeps me updated all day. Absolutely the best decision we made!",
   },
   {
     name: "Rohit Mehta", role: "Dad of Ananya, 3 yrs", avatar: "👨", rating: 5,
@@ -162,7 +162,7 @@ export const TESTIMONIALS = [
   },
   {
     name: "Sunita Verma", role: "Mom of Kabir, 2.5 yrs", avatar: "👩‍💼", rating: 5,
-    text: "Safety and hygiene are top-notch. The live CCTV feature gave me so much peace of mind when Kabir just started. Highly recommend Footprints to every parent!",
+    text: "Safety and hygiene are top-notch. The live CCTV feature gave me so much peace of mind when Kabir just started. Highly recommend Toy and Joy Playzone to every parent!",
   },
   {
     name: "Amit Kapoor", role: "Dad of Diya, 5 yrs", avatar: "👨‍💻", rating: 5,
