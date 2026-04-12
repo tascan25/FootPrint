@@ -48,15 +48,6 @@ export const STATS = [
 
 export const PROGRAMS = [
   {
-    title: "Playway group",
-    age: "2.3 – 3 yrs",
-    icon: "🧸",
-    color: "#FF6B6B",
-    bg: "#FFF0F0",
-    image: image3,
-    desc: "First steps into the world — through sensory play, stories, and new friends.",
-  },
-  {
     title: "Toddler",
     age: "1.5 – 2 yrs",
     icon: "🎨",
@@ -65,6 +56,16 @@ export const PROGRAMS = [
     image: image11,
     desc: "Building curiosity and early language skills through creative exploration.",
   },
+  {
+    title: "Playway group",
+    age: "2.3 – 3 yrs",
+    icon: "🧸",
+    color: "#FF6B6B",
+    bg: "#FFF0F0",
+    image: image3,
+    desc: "First steps into the world — through sensory play, stories, and new friends.",
+  },
+  
   {
     title: "Nursery",
     age: "3 – 4 yrs",
