@@ -154,20 +154,24 @@ export const FEATURES = [
 
 export const TESTIMONIALS = [
   {
-    name: "Priya Sharma", role: "Mom of Aarav, 4 yrs", avatar: "👩", rating: 5,
-    text: "Toy and Joy Playzone has been a second home for my son. The teachers are incredibly nurturing and the ParentConnect app keeps me updated all day. Absolutely the best decision we made!",
+    name: "Divyansha's Mother", role: "Mom of Divyansha's, 4 yrs", avatar: "👨", rating: 5,
+    text: "The best school for our child. Provides a good enviornment and skills for children. Teachers and staffs are so dedicated and explained in so well manner. Thank you so much and missed all of you.",
   },
   {
-    name: "Rohit Mehta", role: "Dad of Ananya, 3 yrs", avatar: "👨", rating: 5,
-    text: "The HighScope curriculum is exceptional. We've seen remarkable growth in Ananya's confidence and communication in just 6 months. Can't recommend enough!",
+    name: "Ayukt's Mother", role: "Mom of Ayukt, 3 yrs", avatar: "👨", rating: 5,
+    text: "School is very good, all teachers, staff, prinicipal ma'am are very good, supportive and understanding. I really appreciated all teachers and thier hard work. Even thier curriculum is also according to norms. ",
   },
   {
-    name: "Sunita Verma", role: "Mom of Kabir, 2.5 yrs", avatar: "👩‍💼", rating: 5,
-    text: "Safety and hygiene are top-notch. The live CCTV feature gave me so much peace of mind when Kabir just started. Highly recommend Toy and Joy Playzone to every parent!",
+    name: "Drishika's Father", role: "Dad of Drishika, 2.5 yrs", avatar: "👨‍💼", rating: 5,
+    text: "We are very happy with this School. Drishika had really erjoyed her time, here and has legnt alot, we appreciate the touch for thire care and efforts in erecting a pastur and joyed eneronment, for the chillrer.",
   },
   {
-    name: "Amit Kapoor", role: "Dad of Diya, 5 yrs", avatar: "👨‍💻", rating: 5,
-    text: "Diya went from being shy to performing on stage! The holistic development here is unlike anything we've seen. A truly special place.",
+    name: "Aayansh's Mother", role: "Mom of Aayansh, 5 yrs", avatar: "👨", rating: 5,
+    text: "Thank you so much for all the support and care you have provided to Aayansh. The whole staff is amazing and dedicated to the children's growth and development.",
+  },
+  {
+    name: "Anvi's Father", role: "Dad of Anvi, 4 yrs", avatar: "👩", rating: 5,
+    text: "I bre the way Anvi has improved. She has become more confident and expressive. The teachers have done their job perfectly. I appreciate them and thanks t whole Staff of Toy n Joy.",
   },
 ];
 

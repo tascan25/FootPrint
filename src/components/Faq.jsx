@@ -14,16 +14,17 @@ const FAQS = [
   },
   {
     q: "Do you have a curriculum or learning approach?",
-    a: "Yes, we follow a US based HighScope Curriculum that encourages social, emotional, and cognitive development through interactive and creative activities.",
+    a: "Following NEP. The National Education Policy (NEP) 2020 has shaped it to suit a child’s growth. This model supports activity-led and hands-on learning.",
     icon: "🎓",
   },
   {
     q: "What is the teacher-to-student ratio in your preschool?",
     a: `Our teacher-to-student ratios are tailored to each group:
-• Playgroup: 1: 12
-• Nur: 1: 15
-• Lkg: 1: 18
-• Ukg: 25:
+    
+      • Playgroup: 1: 12
+      • Nur: 1: 15
+      • Lkg: 1: 18
+      • Ukg: 25:
 `,
     icon: "👩‍🏫",
   },
@@ -69,7 +70,8 @@ const FAQS = [
   },
   {
     q: "What makes Toy and Joy Playzone different from other preschools in Raj Nagar Extension, Ghaziabad?",
-    a: "Toy and Joy Playzone stands out due to its live CCTV access, research-driven curriculum, strong safety standards, trained staff, and focus on holistic child development.",
+    a: `Toy & Joy Playzone care about their students' well-being as a whole help them find their interests and learn important life skills.
+      EVERY CHILD MATTER'S`,
     icon: "🌟",
   },
   {
@@ -152,7 +154,7 @@ function FaqItem({ faq, index, isOpen, onToggle }) {
                 className="h-px mb-4"
                 style={{ background: "linear-gradient(90deg, #FF6B6B33, transparent)" }}
               />
-              <p className="text-slate-600 text-sm leading-relaxed font-semibold">
+              <p className="text-slate-600 text-sm leading-relaxed font-semibold whitespace-pre-line">
                 {faq.a}
               </p>
             </div>
