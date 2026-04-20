@@ -18,6 +18,13 @@ import image16 from '../src/assets/image/image16.jpg'
 import image17 from '../src/assets/image/image17.jpg'
 import image18 from '../src/assets/image/image18.jpeg'
 import image19 from '../src/assets/image/image19.jpeg'
+import daycare from '../src/assets/image/daycare.jpeg'
+import daycare2 from '../src/assets/image/daycare2.jpeg'
+import lkg from '../src/assets/image/lkg.jpeg'
+import nursery from '../src/assets/image/nursery.jpeg'
+import playgroup from '../src/assets/image/playgroup.jpeg'
+import toddler from '../src/assets/image/toddler.jpeg'
+import ukg from '../src/assets/image/ukg.jpeg'
 
 export const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -53,7 +60,7 @@ export const PROGRAMS = [
     icon: "🎨",
     color: "#FF9A3C",
     bg: "#FFF5EC",
-    image: image11,
+    image: toddler,
     desc: "Building curiosity and early language skills through creative exploration.",
   },
   {
@@ -62,7 +69,7 @@ export const PROGRAMS = [
     icon: "🧸",
     color: "#FF6B6B",
     bg: "#FFF0F0",
-    image: image3,
+    image: playgroup,
     desc: "First steps into the world — through sensory play, stories, and new friends.",
   },
   
@@ -72,7 +79,7 @@ export const PROGRAMS = [
     icon: "📚",
     color: "#4CAF50",
     bg: "#F0FFF0",
-    image: image7,
+    image: nursery,
     desc: "Foundational literacy, numeracy, and social-emotional growth.",
   },
   {
@@ -81,7 +88,7 @@ export const PROGRAMS = [
     icon: "🔬",
     color: "#5BC8F5",
     bg: "#F0FBFF",
-    image: image4,
+    image: lkg,
     desc: "School readiness through critical thinking and hands-on learning.",
   },
   {
@@ -90,7 +97,7 @@ export const PROGRAMS = [
     icon: "🚀",
     color: "#A855F7",
     bg: "#F8F0FF",
-    image: image5,
+    image: ukg,
     desc: "Advanced curriculum building confidence for primary school.",
   },
   {
@@ -99,7 +106,7 @@ export const PROGRAMS = [
     icon: "🌙",
     color: "#FF6EC7",
     bg: "#FFF0FB",
-    image: image10,
+    image: daycare2,
     desc: "Safe, nurturing after-school care with trained caregivers.",
   },
 ];
