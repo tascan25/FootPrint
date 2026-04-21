@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const links = {
   Programs: ["Playgroup", "Toddler", "Nursery", "LKG", "UKG", "Day Care"],
-  Company: ["About Us", "Our Story", "Centers Near You", "Careers", "News & Awards"],
+  Company: ["About Us", "Our Story", "Centers Near You", "Careers"],
   Support: ["FAQs", "Admissions Process", "Fee Structure", "Privacy Policy", "Terms of Use"],
 };
 
@@ -32,7 +32,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-slate-400 text-sm font-semibold leading-relaxed mb-6">
-              India's most trusted preschool chain — nurturing little minds for over 20 years with love, play, and purpose.
+              India's most trusted preschool — nurturing little minds for over 14+ years with love, play, and purpose.
             </p>
             {/* Social icons */}
             <div className="flex gap-3">

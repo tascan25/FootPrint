@@ -2,8 +2,7 @@ import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import video from '../assets/video/video.mp4'
 
-// Replace this with the actual YouTube video ID from the original website
-const VIDEO_ID = "_6MlfeJ-Q4o"; // placeholder – swap with real ID
+const VIDEO_ID = "_6MlfeJ-Q4o";
 
 export default function VideoSection() {
   const [playing, setPlaying] = useState(false);
@@ -24,8 +23,8 @@ export default function VideoSection() {
       </div>
 
       {/* Floating deco */}
-      <span className="absolute top-16 left-10 text-4xl opacity-10 float-a select-none">🎥</span>
-      <span className="absolute bottom-16 right-10 text-4xl opacity-10 float-b select-none">💬</span>
+      <span className="absolute top-16 left-10 text-4xl opacity-10 float-a select-none">🎠</span>
+      <span className="absolute bottom-16 right-10 text-4xl opacity-10 float-b select-none">🧸</span>
 
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6">
         {/* Heading */}
@@ -36,7 +35,7 @@ export default function VideoSection() {
             transition={{ duration: 0.5 }}
             className="inline-block bg-pink-100 text-pink-600 text-sm font-black px-4 py-1.5 rounded-full mb-4 uppercase tracking-wide"
           >
-            🎙️ Parents Speak
+            🐾 Welcome to Our World
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
@@ -45,8 +44,8 @@ export default function VideoSection() {
             className="text-4xl sm:text-5xl text-slate-800 mb-4"
             style={{ fontFamily: "'Fredoka One', cursive" }}
           >
-            What Parents Say{" "}
-            <span className="grad-text">About Toy and Joy Playzone?</span> 💛
+            Welcome to{" "}
+            <span className="grad-text">Toy & Joy Playzone!</span> 🎉
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -54,7 +53,7 @@ export default function VideoSection() {
             transition={{ delay: 0.25 }}
             className="text-slate-500 max-w-lg mx-auto text-lg font-semibold"
           >
-            Don't just take our word for it — hear directly from the parents who trust us with their most precious ones.
+            A magical place where little ones learn, laugh, and grow — take a peek inside our world of wonder!
           </motion.p>
         </div>
 
@@ -77,15 +76,12 @@ export default function VideoSection() {
             style={{ aspectRatio: "16/9" }}
           >
             {!playing ? (
-              /* ── Thumbnail + play button ── */
               <div className="absolute inset-0">
-                {/* Thumbnail image (YouTube auto-thumbnail) */}
                 <img
                   src={video}
-                  alt="Parents Speak About Toy and Joy Playzone"
+                  alt="Welcome to Toy and Joy Playzone"
                   className="w-full h-full object-cover"
                   onError={(e) => {
-                    // Fallback to a kids-themed gradient if thumbnail fails
                     e.target.style.display = "none";
                   }}
                 />
@@ -96,7 +92,7 @@ export default function VideoSection() {
                   style={{ background: "linear-gradient(to top, rgba(26,26,94,0.75) 0%, rgba(26,26,94,0.2) 60%, transparent 100%)" }}
                 />
 
-                {/* "PARENTS SPEAK" big text watermark */}
+                {/* Watermark text */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
                   <div
                     className="text-center select-none"
@@ -108,8 +104,8 @@ export default function VideoSection() {
                       letterSpacing: "0.04em",
                     }}
                   >
-                    <div>PARENTS</div>
-                    <div style={{ color: "rgba(255,107,107,0.18)" }}>SPEAK</div>
+                    <div>TOY AND</div>
+                    <div style={{ color: "rgba(255,107,107,0.18)" }}>JOY</div>
                   </div>
                 </div>
 
@@ -122,10 +118,8 @@ export default function VideoSection() {
                     className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center shadow-2xl"
                     style={{ background: "linear-gradient(135deg, #FF6B6B, #FF9A3C)" }}
                   >
-                    {/* Ripple rings */}
                     <span className="absolute inset-0 rounded-full animate-ping opacity-30" style={{ background: "#FF6B6B" }} />
                     <span className="absolute -inset-3 rounded-full border-2 border-white/20 animate-pulse" />
-                    {/* Triangle play icon */}
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="ml-2">
                       <path d="M8 6L26 16L8 26V6Z" fill="white" />
                     </svg>
@@ -133,7 +127,7 @@ export default function VideoSection() {
 
                   <div className="text-center">
                     <p className="text-white font-black text-lg drop-shadow" style={{ fontFamily: "'Fredoka One', cursive" }}>
-                      Watch the Story 🎬
+                      Take a Tour 🎠
                     </p>
                     <p className="text-white/70 text-sm font-semibold">3 min 20 sec</p>
                   </div>
@@ -148,11 +142,10 @@ export default function VideoSection() {
                 </div>
               </div>
             ) : (
-              /* ── Actual YouTube embed ── */
               <iframe
                 className="absolute inset-0 w-full h-full"
                 src={video}
-                title="What Parents Speak About Toy and Joy Playzone?"
+                title="Welcome to Toy and Joy Playzone"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

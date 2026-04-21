@@ -108,7 +108,7 @@ export default function Values() {
           transition={{ delay: 0.3 }}
           className="mt-14 text-center bg-white rounded-3xl p-10 shadow-xl border-2 border-orange-100"
         >
-          <div className="text-5xl mb-4">🌈</div>
+          <div className="text-5xl mb-4">⭐️</div>
           <h3
             className="text-3xl text-slate-800 mb-3"
             style={{ fontFamily: "'Fredoka One', cursive" }}

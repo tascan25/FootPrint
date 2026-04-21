@@ -97,7 +97,7 @@ export default function Curriculum() {
             transition={{ delay: 0.1 }}
             className="text-slate-500 text-lg leading-relaxed mb-5 font-semibold"
           >
-            Toy & Joy is the <strong className="text-slate-700">only preschool chain in India</strong> to use the Foundational Core® curriculum — a research-backed methodology founded in India that has transformed early education globally.
+            Toy & Joy is the <strong className="text-slate-700">only preschool in India</strong> to use the Foundational Core® curriculum — under NEP guidelines founded in India that has transformed early education globally.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

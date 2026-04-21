@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "What are your operating hours and days?",
-    a: "We are open from Monday to Friday, from 8:15 AM to 7:15 PM. Regular timings are from 9:00 AM to 6:30 PM. Early/Late hours are available at specific branches and charged extra. Saturday services are also available at select branches.",
+    a: "We are open from Monday to Friday, from 8:30 AM to 6:00 PM. Regular timings are from 8:30 AM to 6:00 PM. Early/Late hours are available at specific branches and charged extra. Saturday services are also available at select branches.",
     icon: "🕐",
   },
   {

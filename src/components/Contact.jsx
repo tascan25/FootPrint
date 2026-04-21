@@ -4,7 +4,7 @@ import InquiryForm from "./InquiryForm";
 const info = [
   { icon: "📍", label: "Address",  value: "VVIP Addresses G- Block, Flat No. G-101/102, Raj Nagar Extension (Ghaziabad)" },
   { icon: "📞", label: "Phone",    value: "+91 8979669233" },
-  { icon: "🕐", label: "Hours",    value: "Mon – Sat: 8:00 AM – 6:30 PM" },
+  { icon: "🕐", label: "Hours",    value: "Mon – Sat: 8:30 AM – 6:00 PM" },
   { icon: "✉️", label: "Email",    value: "admissions@toyandjoyplayzoneplayschool.in" },
 ];
 

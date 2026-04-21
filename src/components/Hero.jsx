@@ -25,7 +25,7 @@ export default function Hero({ onEnquire }) {
           { e: "🌟", top: "12%", right: "9%",  fs: 48, cls: "float-a" },
           { e: "🎈", top: "25%", left: "5%",   fs: 40, cls: "float-b" },
           { e: "🦋", bottom:"30%", right:"5%", fs: 36, cls: "float-c" },
-          { e: "🌈", top: "55%", left: "3%",   fs: 34, cls: "float-a" },
+          // { e: "🌈", top: "55%", left: "3%",   fs: 34, cls: "float-a" },
           { e: "⭐", bottom:"20%", left:"18%", fs: 28, cls: "float-b" },
           { e: "🎨", top: "18%", left: "28%",  fs: 28, cls: "float-c" },
         ].map(({ e, cls, fs, ...pos }) => (

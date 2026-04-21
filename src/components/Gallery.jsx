@@ -46,7 +46,7 @@ export default function Gallery() {
             style={{ fontFamily: "'Fredoka One', cursive" }}
           >
             Every Day is an{" "}
-            <span className="grad-text-sky">Adventure</span> 🌈
+            <span className="grad-text-sky">Adventure</span> 
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}

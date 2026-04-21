@@ -126,11 +126,11 @@ export const KEYWORDS = [
   },
   {
     icon: "📹", label: "CCTV Surveillance", color: "#5BC8F5", bg: "#F0FBFF",
-    desc: "Live, 24×7 camera access straight to your phone — watch your child anytime.",
+    desc: "Live, camera access straight to your phone — watch your child anytime.",
   },
   {
     icon: "🛡️", label: "Secure Day Care", color: "#4CAF50", bg: "#F0FFF0",
-    desc: "Biometric entry, trained attendants, and strict visitor protocols keep every child safe.",
+    desc: "trained attendants, and strict visitor protocols keep every child safe.",
   },
   {
     icon: "🧩", label: "Activity-Based Learning", color: "#FF6EC7", bg: "#FFF0FB",
@@ -155,29 +155,29 @@ export const FEATURES = [
   // { icon: "🍱", title: "Nutritious Meals",        desc: "Fresh, home-like meals planned by dietitians with monthly menus.",         color: "#4CAF50" },
   { icon: "📱", title: "Dedicated Storytelling",       desc: "Enriching imagination and language skills with regular storyteller sessions and a curated library.",     color: "#5BC8F5" },
   { icon: "🎓", title: "CBSE Based Curriculum",  desc: "A comprehensive early foundation designed around the CBSE framework, preparing children for future academic excellence and holistic development.",    color: "#A855F7" },
-  { icon: "🚌", title: "GPS-Tracked Transport",  desc: "Secure school vans with GPS tracking and trained female attendants.",      color: "#FF9A3C" },
-  { icon: "🏥", title: "Fully Baby-Proofed Learning Spaces", desc: "Our school is meticulously designed to be baby-proof, with soft edges on furniture, cushioned floors, and safe, non-toxic baby-proof toys that meet international safety standards. Rest assured your little ones are in a secure and stimulating environment.", color: "#FF6EC7" },
+  { icon: "🚌", title: "Transport",  desc: "Secure school vans with trained female attendants.",      color: "#FF9A3C" },
+  { icon: "🏥", title: "Fully Baby-Proofed Learning Spaces", desc: "Our school is meticulously designed to be baby-proof, with soft edges on furniture, Floor matting, and safe, non-toxic baby-proof toys that meet international safety standards. Rest assured your little ones are in a secure and stimulating environment.", color: "#FF6EC7" },
 ];
 
 export const TESTIMONIALS = [
   {
-    name: "Divyansha's Mother", role: "Mom of Divyansha's, 4 yrs", avatar: "👨", rating: 5,
+    name: "Divyansha's Mother", role: "", avatar: "👨", rating: 5,
     text: "The best school for our child. Provides a good enviornment and skills for children. Teachers and staffs are so dedicated and explained in so well manner. Thank you so much and missed all of you.",
   },
   {
-    name: "Ayukt's Mother", role: "Mom of Ayukt, 3 yrs", avatar: "👨", rating: 5,
+    name: "Ayukt's Mother", role: "", avatar: "👨", rating: 5,
     text: "School is very good, all teachers, staff, prinicipal ma'am are very good, supportive and understanding. I really appreciated all teachers and thier hard work. Even thier curriculum is also according to norms. ",
   },
   {
-    name: "Drishika's Father", role: "Dad of Drishika, 2.5 yrs", avatar: "👨‍💼", rating: 5,
+    name: "Drishika's Father", role: "", avatar: "👨‍💼", rating: 5,
     text: "We are very happy with this School. Drishika had really erjoyed her time, here and has legnt alot, we appreciate the touch for thire care and efforts in erecting a pastur and joyed eneronment, for the chillrer.",
   },
   {
-    name: "Aayansh's Mother", role: "Mom of Aayansh, 5 yrs", avatar: "👨", rating: 5,
+    name: "Aayansh's Mother", role: "", avatar: "👨", rating: 5,
     text: "Thank you so much for all the support and care you have provided to Aayansh. The whole staff is amazing and dedicated to the children's growth and development.",
   },
   {
-    name: "Anvi's Father", role: "Dad of Anvi, 4 yrs", avatar: "👩", rating: 5,
+    name: "Anvi's Father", role: "", avatar: "👩", rating: 5,
     text: "I bre the way Anvi has improved. She has become more confident and expressive. The teachers have done their job perfectly. I appreciate them and thanks t whole Staff of Toy n Joy.",
   },
 ];

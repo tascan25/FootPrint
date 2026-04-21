@@ -37,7 +37,7 @@ export default function Navbar({ onEnquire }) {
             </div>
             <div>
               <div className="text-xl font-display leading-tight" style={{ color: "#1A1A5E", fontFamily: "'Fredoka One', cursive" }}>
-                Toy and Joy Playzone
+                Toy & Joy Playzone
               </div>
               <div className="text-xs font-bold text-orange-400 -mt-0.5 tracking-wide flex justify-between italic">
                 <span>Preschool</span>
