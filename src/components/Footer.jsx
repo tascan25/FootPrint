@@ -3,7 +3,13 @@ import { motion } from "framer-motion";
 const links = {
   Programs: ["Playgroup", "Toddler", "Nursery", "LKG", "UKG", "Day Care"],
   Company: ["About Us", "Our Story", "Centers Near You", "Careers"],
-  Support: ["FAQs", "Admissions Process", "Fee Structure", "Privacy Policy", "Terms of Use"],
+  Support: [
+    "FAQs",
+    "Admissions Process",
+    "Fee Structure",
+    "Privacy Policy",
+    "Terms of Use",
+  ],
 };
 
 export default function Footer() {
@@ -16,10 +22,12 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
               <div
-                className="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl shadow-lg"
-                style={{ background: "linear-gradient(135deg, #FF6B6B, #FF9A3C)" }}
+                className="w-11 h-11 rounded-2xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform"
+                style={{
+                  background: "linear-gradient(135deg, #FF6B6B, #FF9A3C)",
+                }}
               >
-                🐾
+                <img src='/toyjoy.png' alt="Toy & Joy Playzone Logo" />
               </div>
               <div>
                 <div
@@ -28,19 +36,27 @@ export default function Footer() {
                 >
                   Toy & Joy Playzone
                 </div>
-                <div className="text-xs font-bold text-orange-400 -mt-0.5">PlaySchool</div>
+                <div className="text-xs font-bold text-orange-400 -mt-0.5 flex flex-row justify-between items-center italic">
+                  <span>Preschool</span>
+                  <span>Because we care...</span>
+                </div>
               </div>
             </div>
             <p className="text-slate-400 text-sm font-semibold leading-relaxed mb-6">
-              India's most trusted preschool — nurturing little minds for over 14+ years with love, play, and purpose.
+              India's most trusted preschool — nurturing little minds for over
+              14+ years with love, play, and purpose.
             </p>
             {/* Social icons */}
             <div className="flex gap-3">
               {[
-                { icon: "📘", label: "Facebook",  bg: "#1877F2" },
-                { icon: "📸", label: "Instagram", bg: "linear-gradient(135deg,#F58529,#DD2A7B,#8134AF)" },
-                { icon: "▶️", label: "YouTube",   bg: "#FF0000" },
-                { icon: "🐦", label: "Twitter",   bg: "#1DA1F2" },
+                { icon: "📘", label: "Facebook", bg: "#1877F2" },
+                {
+                  icon: "📸",
+                  label: "Instagram",
+                  bg: "linear-gradient(135deg,#F58529,#DD2A7B,#8134AF)",
+                },
+                { icon: "▶️", label: "YouTube", bg: "#FF0000" },
+                { icon: "🐦", label: "Twitter", bg: "#1DA1F2" },
               ].map((s) => (
                 <motion.a
                   key={s.label}

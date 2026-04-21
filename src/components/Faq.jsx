@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "What are your operating hours and days?",
-    a: "We are open from Monday to Friday, from 8:30 AM to 6:00 PM. Regular timings are from 8:30 AM to 6:00 PM. Early/Late hours are available at specific branches and charged extra. Saturday services are also available at select branches.",
+    a: "We are open from Monday to Friday, from 8:30 AM to 6:00 PM. Regular timings are from 8:30 AM to 6:00 PM.",
     icon: "🕐",
   },
   {
@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     q: "Are meals provided for the children, or should they bring their own lunch?",
-    a: "We offer healthy snacks and meals as part of our program. You can find our menu in our handbook, and we accommodate dietary restrictions as needed.",
+    a: "We offer lunch in day care only healthy.",
     icon: "🍱",
   },
   {
