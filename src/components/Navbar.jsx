@@ -33,7 +33,7 @@ export default function Navbar({ onEnquire }) {
               className="w-11 h-11 rounded-2xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform"
               style={{ background: "linear-gradient(135deg, #FF6B6B, #FF9A3C)" }}
             >
-              <img src={logo} alt="Toy and Joy Playzone Logo" />
+              <img src={logo} alt="Toy & Joy Playzone Logo" />
             </div>
             <div>
               <div className="text-xl font-display leading-tight" style={{ color: "#1A1A5E", fontFamily: "'Fredoka One', cursive" }}>

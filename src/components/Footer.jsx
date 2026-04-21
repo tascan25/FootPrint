@@ -26,7 +26,7 @@ export default function Footer() {
                   className="text-xl text-white"
                   style={{ fontFamily: "'Fredoka One', cursive" }}
                 >
-                  Toy and Joy Playzone
+                  Toy & Joy Playzone
                 </div>
                 <div className="text-xs font-bold text-orange-400 -mt-0.5">PlaySchool</div>
               </div>
@@ -86,7 +86,7 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-slate-500 text-sm font-semibold">
-            © 2025 Toy and Joy Playzone Playschool Pvt. Ltd. All rights reserved.
+            © 2025 Toy & Joy Playzone Playschool Pvt. Ltd. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-slate-500 text-sm font-semibold">
             <span>Made with</span>

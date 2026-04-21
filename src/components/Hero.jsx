@@ -80,7 +80,7 @@ export default function Hero({ onEnquire }) {
             transition={{ duration: 0.7, delay: 0.35 }}
             className="text-lg text-slate-500 leading-relaxed mb-8 max-w-lg font-semibold"
           >
-            A decade of experience. A lifetime of trust. Choose Toy and Joy for safe, nurturing, and play based learning enviornment where every child's potential is realized. We offer personalized attention in a stimulating space designed for curiosity. Visit us and see the difference{" "}
+            A decade of experience. A lifetime of trust. Choose Toy & Joy for safe, nurturing, and play based learning enviornment where every child's potential is realized. We offer personalized attention in a stimulating space designed for curiosity. Visit us and see the difference{" "}
             {/* <span className="text-[#FF6B6B] font-black">HighScope®</span>{" "}
             curriculum for 20+ years. */}
           </motion.p>
@@ -110,7 +110,7 @@ export default function Hero({ onEnquire }) {
           </motion.div>
 
           {/* Trust pills */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.6 }}
@@ -121,7 +121,7 @@ export default function Hero({ onEnquire }) {
                 {b}
               </span>
             ))}
-          </motion.div>
+          </motion.div> */}
         </div>
 
         {/* ── Right: Image collage + form ── */}
@@ -136,7 +136,7 @@ export default function Hero({ onEnquire }) {
             <div className="rounded-3xl overflow-hidden shadow-xl h-52">
               <img
                 src={IMAGES.heroKids}
-                alt="Happy children at Toy and Joy Playzone Play School"
+                alt="Happy children at Toy & Joy Playzone Play School"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 rounded-3xl" style={{ background: "linear-gradient(to top, rgba(255,107,107,0.55) 0%, transparent 60%)" }} />

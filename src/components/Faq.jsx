@@ -34,18 +34,18 @@ const FAQS = [
     icon: "🍱",
   },
   {
-    q: "Is Toy and Joy Playzone Preschool in Raj Nagar Extension, Ghaziabad safe for young children?",
+    q: "Is Toy & Joy Playzone Preschool in Raj Nagar Extension, Ghaziabad safe for young children?",
     a: "Yes. Safety is our top priority. The centre follows strict safety protocols including secure entry–exit systems, CCTV surveillance, child-safe infrastructure, and trained staff to ensure a safe environment for every child.",
     icon: "🛡️",
   },
   {
-    q: "Does Toy and Joy Playzone Raj Nagar Extension, Ghaziabad provide live CCTV access to parents?",
+    q: "Does Toy & Joy Playzone Raj Nagar Extension, Ghaziabad provide live CCTV access to parents?",
     a: "Yes. Parents receive secure live CCTV access, allowing them to monitor their child in real time during school or daycare hours for complete peace of mind.",
     icon: "📹",
   },
   {
-    q: "Is Toy and Joy Playzone suitable for working parents?",
-    a: "Absolutely. Our flexible daycare timings, extended care options, and structured routine make Toy and Joy Playzone an ideal choice for working parents in Raj Nagar Extension, Ghaziabad and nearby areas.",
+    q: "Is Toy & Joy Playzone suitable for working parents?",
+    a: "Absolutely. Our flexible daycare timings, extended care options, and structured routine make Toy & Joy Playzone an ideal choice for working parents in Raj Nagar Extension, Ghaziabad and nearby areas.",
     icon: "💼",
   },
   {
@@ -59,17 +59,17 @@ const FAQS = [
     icon: "✅",
   },
   {
-    q: "How does Toy and Joy Playzone help children adjust during the initial days?",
+    q: "How does Toy & Joy Playzone help children adjust during the initial days?",
     a: "We follow a gentle settling-in process, allowing children to adapt gradually with emotional support, familiarization activities, and close communication with parents.",
     icon: "🤗",
   },
   {
-    q: "How does Toy and Joy Playzone communicate with parents?",
+    q: "How does Toy & Joy Playzone communicate with parents?",
     a: "Parents receive regular updates, daily activity reports, photos, and notifications through digital platforms, ensuring transparency and strong parent-school communication.",
     icon: "📱",
   },
   {
-    q: "What makes Toy and Joy Playzone different from other preschools in Raj Nagar Extension, Ghaziabad?",
+    q: "What makes Toy & Joy Playzone different from other preschools in Raj Nagar Extension, Ghaziabad?",
     a: `Toy & Joy Playzone care about their students' well-being as a whole help them find their interests and learn important life skills.
       EVERY CHILD MATTER'S`,
     icon: "🌟",
@@ -218,7 +218,7 @@ export default function Faq() {
             transition={{ delay: 0.25 }}
             className="text-slate-500 max-w-xl mx-auto text-lg font-semibold"
           >
-            Everything parents want to know before choosing Toy and Joy Playzone for their little one.
+            Everything parents want to know before choosing Toy & Joy Playzone for their little one.
           </motion.p>
         </div>
 

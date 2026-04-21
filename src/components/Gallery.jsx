@@ -35,7 +35,7 @@ export default function Gallery() {
             viewport={{ once: true }}
             className="inline-block bg-blue-100 text-blue-600 text-sm font-black px-4 py-1.5 rounded-full mb-4 uppercase tracking-wide"
           >
-            📸 Life at Toy and Joy Playzone
+            📸 Life at Toy & Joy Playzone
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 30 }}

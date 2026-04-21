@@ -28,7 +28,7 @@ export default function Values() {
             viewport={{ once: true }}
             className="inline-block bg-sky-100 text-sky-600 text-sm font-black px-4 py-1.5 rounded-full mb-4 uppercase tracking-wide"
           >
-            💎 Discover the difference Toy and Joy Makes
+            💎 Discover the difference Toy & Joy Makes
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 30 }}

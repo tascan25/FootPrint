@@ -50,7 +50,7 @@ export default function Contact() {
             transition={{ delay: 0.15 }}
             className="text-blue-200 font-semibold mb-8 text-lg leading-relaxed"
           >
-            Meet our team, tour the colorful classrooms, and see firsthand why thousands of Delhi parents choose Toy and Joy playzone for their little ones.
+            Meet our team, tour the colorful classrooms, and see firsthand why thousands of Delhi parents choose Toy & Joy playzone for their little ones.
           </motion.p>
 
           <div className="space-y-5">

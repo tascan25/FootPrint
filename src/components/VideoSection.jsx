@@ -79,7 +79,7 @@ export default function VideoSection() {
               <div className="absolute inset-0">
                 <img
                   src={video}
-                  alt="Welcome to Toy and Joy Playzone"
+                  alt="Welcome to Toy & Joy Playzone"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     e.target.style.display = "none";
@@ -136,7 +136,7 @@ export default function VideoSection() {
                 {/* Corner logo badge */}
                 <div className="absolute top-5 left-5 bg-white/90 backdrop-blur rounded-2xl px-4 py-2 shadow-lg">
                   <span className="text-sm font-black" style={{ fontFamily: "'Fredoka One', cursive", color: "#1A1A5E" }}>
-                    🐾 Toy and Joy
+                    🐾 Toy & Joy
                   </span>
                   <div className="text-[10px] font-bold text-orange-500 -mt-0.5">Pre-School & Playzone</div>
                 </div>
@@ -145,7 +145,7 @@ export default function VideoSection() {
               <iframe
                 className="absolute inset-0 w-full h-full"
                 src={video}
-                title="Welcome to Toy and Joy Playzone"
+                title="Welcome to Toy & Joy Playzone"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
