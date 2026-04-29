@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import video from '../assets/video/video.mp4'
+import video from '../assets/video/parents.mp4'
+
 
 const VIDEO_ID = "_6MlfeJ-Q4o";
 
@@ -53,7 +54,8 @@ export default function VideoSection() {
             transition={{ delay: 0.25 }}
             className="text-slate-500 max-w-lg mx-auto text-lg font-semibold"
           >
-            A magical place where little ones learn, laugh, and grow — take a peek inside our world of wonder!
+            A magical place where little ones learn, laugh and grow. Hear it yourself 
+
           </motion.p>
         </div>
 

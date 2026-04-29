@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "What are your operating hours and days?",
-    a: "We are open from Monday to Friday, from 8:30 AM to 6:00 PM. Regular timings are from 8:30 AM to 6:00 PM.",
+    a: "We are open from Monday to Saturday, from  9 :00 am to 3:30 pm.",
     icon: "🕐",
   },
   {
@@ -28,11 +28,11 @@ const FAQS = [
 `,
     icon: "👩‍🏫",
   },
-  {
-    q: "Are meals provided for the children, or should they bring their own lunch?",
-    a: "We offer lunch in day care only healthy.",
-    icon: "🍱",
-  },
+  // {
+  //   q: "Are meals provided for the children, or should they bring their own lunch?",
+  //   a: "We offer lunch in day care only healthy.",
+  //   icon: "🍱",
+  // },
   {
     q: "Is Toy & Joy Playzone Preschool in Raj Nagar Extension, Ghaziabad safe for young children?",
     a: "Yes. Safety is our top priority. The centre follows strict safety protocols including secure entry–exit systems, CCTV surveillance, child-safe infrastructure, and trained staff to ensure a safe environment for every child.",

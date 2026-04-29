@@ -2,22 +2,53 @@ import { motion } from "framer-motion";
 import { IMAGES } from "../data";
 
 const pillars = [
-  { icon: "https://img.icons8.com/color/48/star--v1.png", label: "Core Skills" },
-  { icon: "https://img.icons8.com/color/48/handshake.png", label: "Personal & Social" },
-  { icon: "https://img.icons8.com/color/48/brain.png", label: "Cognitive Base" },
-  { icon: "https://img.icons8.com/color/48/idea.png", label: "Problem Solving" },
-  { icon: "https://img.icons8.com/color/48/chat.png", label: "Communicative Arts" },
-  { icon: "https://img.icons8.com/color/48/paint-palette.png", label: "Creative Thinking" },
-  { icon: "https://img.icons8.com/color/48/abc.png", label: "Language Base" },
-  { icon: "https://img.icons8.com/color/48/tablet.png", label: "Digital Literacy" },
+  { icon: "https://img.icons8.com/color/48/medal.png", label: "Core Skills" },
+  {
+    icon: "https://img.icons8.com/color/48/positive-dynamic.png",
+    label: "Personal Development",
+  },
+  {
+    icon: "https://img.icons8.com/color/48/brain.png",
+    label: "Cognitive Base",
+  },
+  {
+    icon: "https://img.icons8.com/color/48/puzzle.png",
+    label: "Problem Solving",
+  },
+  {
+    icon: "https://img.icons8.com/color/48/speech-bubble.png",
+    label: "Communication Skills",
+  },
+  {
+    icon: "https://img.icons8.com/color/48/idea.png",
+    label: "Creative Thinking",
+  },
+  {
+    icon: "https://img.icons8.com/color/48/literature.png",
+    label: "Language Base",
+  },
+  {
+    icon: "https://img.icons8.com/color/48/conference-call.png",
+    label: "Social Development",
+  },
 ];
 
 export default function Curriculum() {
   return (
-    <section className="py-24 relative overflow-hidden" style={{ background: "#FFF5F0" }}>
+    <section
+      className="py-24 relative overflow-hidden"
+      style={{ background: "#FFF5F0" }}
+    >
       <div className="wave-top">
-        <svg viewBox="0 0 1440 70" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-          <path d="M0,35 C360,70 720,0 1080,35 C1260,52 1380,28 1440,35 L1440,0 L0,0 Z" fill="#1A4A5E" />
+        <svg
+          viewBox="0 0 1440 70"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,35 C360,70 720,0 1080,35 C1260,52 1380,28 1440,35 L1440,0 L0,0 Z"
+            fill="#1A4A5E"
+          />
         </svg>
       </div>
 
@@ -37,23 +68,49 @@ export default function Curriculum() {
               alt="Children learning in a Toy & Joy classroom"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(26,26,94,0.7) 0%, transparent 55%)" }} />
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  "linear-gradient(to top, rgba(26,26,94,0.7) 0%, transparent 55%)",
+              }}
+            />
           </div>
 
           {/* Overlaid curriculum badge */}
-          <div className="absolute bottom-6 left-6 right-6 rounded-2xl p-4 border border-white/20" style={{ background: "rgba(255,255,255,0.12)", backdropFilter: "blur(16px)" }}>
+          <div
+            className="absolute bottom-6 left-6 right-6 rounded-2xl p-4 border border-white/20"
+            style={{
+              background: "rgba(255,255,255,0.12)",
+              backdropFilter: "blur(16px)",
+            }}
+          >
             <div className="flex items-center gap-3 mb-3">
               <div className="text-3xl">🎓</div>
               <div>
-                <div className="text-white font-black text-lg" style={{ fontFamily: "'Fredoka One', cursive" }}>Foundational Core®</div>
-                <div className="text-white/70 text-xs font-bold uppercase tracking-widest">Our Unique Core Curriculum · Founded in India</div>
+                <div
+                  className="text-white font-black text-lg"
+                  style={{ fontFamily: "'Fredoka One', cursive" }}
+                >
+                  Follow CBSE Curriculum
+                  
+                </div>
+                <div className="text-white/70 text-xs font-bold uppercase tracking-widest">
+                 Based on National Education Policy, 2020
+                </div>
               </div>
             </div>
             <div className="grid grid-cols-4 gap-1.5">
               {pillars.map((p) => (
-                <div key={p.label} className="rounded-xl px-1 py-1.5 text-center" style={{ background: "rgba(255,255,255,0.12)" }}>
+                <div
+                  key={p.label}
+                  className="rounded-xl px-1 py-1.5 text-center"
+                  style={{ background: "rgba(255,255,255,0.12)" }}
+                >
                   <img src={p.icon} alt={p.label} className="w-6 h-6 mx-auto" />
-                  <div className="text-white/80 text-[9px] font-bold leading-tight mt-0.5">{p.label}</div>
+                  <div className="text-white/80 text-[9px] font-bold leading-tight mt-0.5">
+                    {p.label}
+                  </div>
                 </div>
               ))}
             </div>
@@ -88,7 +145,8 @@ export default function Curriculum() {
             className="text-4xl sm:text-5xl text-slate-800 mb-6 leading-tight"
             style={{ fontFamily: "'Fredoka One', cursive" }}
           >
-            Learning Through <span className="grad-text">Play & Purpose</span> 🎯
+            Learning Through <span className="grad-text">Play & Purpose</span>{" "}
+            🎯
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -97,7 +155,9 @@ export default function Curriculum() {
             transition={{ delay: 0.1 }}
             className="text-slate-500 text-lg leading-relaxed mb-5 font-semibold"
           >
-            Toy & Joy is the <strong className="text-slate-700">only preschool in India</strong> to use the Foundational Core® curriculum — under NEP guidelines founded in India that has transformed early education globally.
+            In Toy And Joy,{" "}
+            <strong className="text-slate-700">Learn through practical and fun based activities </strong>{" "}
+             - Under National Education Policy guidelines founded in 2020.
           </motion.p>
           {/* <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -119,12 +179,24 @@ export default function Curriculum() {
           >
             {[
               { img: IMAGES.painting, label: "🎨 Creative Arts" },
-              { img: IMAGES.reading,  label: "📚 Story Time" },
+              { img: IMAGES.reading, label: "📚 Story Time" },
             ].map(({ img, label }) => (
-              <div key={label} className="rounded-2xl overflow-hidden shadow-md aspect-video relative group">
-                <img src={img} alt={label} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                <div className="absolute inset-0" style={{ background: "rgba(26,26,94,0.4)" }} />
-                <span className="absolute bottom-2 left-3 text-xs font-black text-white drop-shadow">{label}</span>
+              <div
+                key={label}
+                className="rounded-2xl overflow-hidden shadow-md aspect-video relative group"
+              >
+                <img
+                  src={img}
+                  alt={label}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div
+                  className="absolute inset-0"
+                  style={{ background: "rgba(26,26,94,0.4)" }}
+                />
+                <span className="absolute bottom-2 left-3 text-xs font-black text-white drop-shadow">
+                  {label}
+                </span>
               </div>
             ))}
           </motion.div>
@@ -137,14 +209,40 @@ export default function Curriculum() {
             className="grid grid-cols-2 gap-3"
           >
             {[
-              { icon: "🧠", label: "Cognitive Base",       color: "#A855F7" },
-              { icon: "💬", label: "Language Base",        color: "#5BC8F5" },
-              { icon: "🤝", label: "Personal & Social",    color: "#4CAF50" },
-              { icon: "🎨", label: "Creative Thinking",    color: "#FF6B6B" },
+              {
+                icon: "https://img.icons8.com/color/48/brain.png",
+                label: "Cognitive Base",
+                color: "#A855F7",
+              },
+              {
+                icon: "https://img.icons8.com/color/48/literature.png",
+                label: "Language Base",
+                color: "#5BC8F5",
+              },
+              {
+                icon: "https://img.icons8.com/color/48/positive-dynamic.png",
+                label: "Personal Development",
+                color: "#4CAF50",
+              },
+              {
+                icon: "https://img.icons8.com/color/48/idea.png",
+                label: "Creative Thinking",
+                color: "#FF6B6B",
+              },
             ].map((item) => (
-              <div key={item.label} className="flex items-center gap-3 bg-white rounded-2xl p-4 shadow-sm border border-slate-100">
-                <span className="text-2xl">{item.icon}</span>
-                <span className="font-black text-slate-700 text-sm">{item.label}</span>
+              <div
+                key={item.label}
+                className="flex items-center gap-3 bg-white rounded-2xl px-4 py-3 shadow-sm border border-slate-100"
+              >
+                <div
+                  className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: `${item.color}18` }}
+                >
+                  <img src={item.icon} alt={item.label} className="w-5 h-5" />
+                </div>
+                <span className="font-semibold text-slate-700 text-sm leading-tight">
+                  {item.label}
+                </span>
               </div>
             ))}
           </motion.div>

@@ -35,7 +35,7 @@ export default function App() {
         <Testimonials />
         <Faq/>
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
         <FloatingCTA  onEnquire={open} />
         <EnquiryModal open={modalOpen} onClose={close} />
       </div>

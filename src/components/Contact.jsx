@@ -50,7 +50,7 @@ export default function Contact() {
             transition={{ delay: 0.15 }}
             className="text-blue-200 font-semibold mb-8 text-lg leading-relaxed"
           >
-            Meet our team, tour the colorful classrooms, and see firsthand why thousands of Delhi parents choose Toy & Joy playzone for their little ones.
+            Meet our team, tour the colorful classrooms, and see firsthand why Hundreds of Raj Nagar Extension Parents choose Toy & Joy playzone for their little ones.
           </motion.p>
 
           <div className="space-y-5">
@@ -92,7 +92,7 @@ export default function Contact() {
               💬 WhatsApp Us
             </a>
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/maps/dir//Toy+%26+Joy+Playzone,+G+-+Block+,+Flat+no,+VVIP+Society,+102,+Raj+Nagar+Extension,+Ghaziabad,+Uttar+Pradesh+201003/@28.6902926,77.2964352,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cf137a687ed2d:0x54f1fdfe535394cf!2m2!1d77.4293195!2d28.6991045?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 px-5 py-3 rounded-2xl font-black text-white text-sm hover:scale-105 transition-transform border border-white/20"

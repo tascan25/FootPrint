@@ -18,6 +18,8 @@ import image16 from '../src/assets/image/image16.jpg'
 import image17 from '../src/assets/image/image17.jpg'
 import image18 from '../src/assets/image/image18.jpeg'
 import image19 from '../src/assets/image/image19.jpeg'
+import image20 from '../src/assets/image/image20.jpeg'
+import image21 from '../src/assets/image/image21.jpeg'
 import daycare from '../src/assets/image/daycare.jpeg'
 import daycare2 from '../src/assets/image/daycare2.jpeg'
 import lkg from '../src/assets/image/lkg.jpeg'
@@ -126,11 +128,11 @@ export const KEYWORDS = [
   },
   {
     icon: "📹", label: "CCTV Surveillance", color: "#5BC8F5", bg: "#F0FBFF",
-    desc: "Live, camera access straight to your phone — watch your child anytime.",
+    desc: "Watch your child in real time from your phone during school hours.",
   },
   {
     icon: "🛡️", label: "Secure Day Care", color: "#4CAF50", bg: "#F0FFF0",
-    desc: "trained attendants, and strict visitor protocols keep every child safe.",
+    desc: "Trained attendants, and strict visitor protocols keep every child safe.",
   },
   {
     icon: "🧩", label: "Activity-Based Learning", color: "#FF6EC7", bg: "#FFF0FB",
@@ -203,7 +205,9 @@ export const IMAGES = {
     // "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&auto=format&fit=crop&q=80",
     // "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=600&auto=format&fit=crop&q=80",
     image1,
-    image2,
+    // image2,
+    image20,
+    image21,
     image3,
     image4,
     image5,
