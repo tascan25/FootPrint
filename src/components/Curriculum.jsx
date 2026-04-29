@@ -17,7 +17,7 @@ const pillars = [
   },
   {
     icon: "https://img.icons8.com/color/48/speech-bubble.png",
-    label: "Communication Skills",
+    label: "Communication skills",
   },
   {
     icon: "https://img.icons8.com/color/48/idea.png",
