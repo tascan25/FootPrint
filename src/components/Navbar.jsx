@@ -30,10 +30,9 @@ export default function Navbar({ onEnquire }) {
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
             <div
-              className="w-16 h-16 rounded-2xl flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform"
-              style={{ background: "linear-gradient(135deg, #FF6B6B, #FF9A3C)" }}
+              className=""
             >
-              <img src={logo} alt="Toy & Joy Playzone Logo" className="w-16 h-16" />
+              <img src={logo} alt="Toy & Joy Playzone Logo" className="w-20 h-20" />
             </div>
             <div>
               <div className="text-xl md:text-2xl font-display leading-tight" style={{ color: "#1A1A5E", fontFamily: "'Fredoka One', cursive" }}>
