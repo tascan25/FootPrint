@@ -32,13 +32,13 @@ export default function Navbar({ onEnquire }) {
             <div
               className=""
             >
-              <img src={logo} alt="Toy & Joy Playzone Logo" className="w-20 h-20" />
+              <img src={logo} alt="Toy & Joy Playzone Logo" className="w-9 h-9  md:w-20 md:h-20" />
             </div>
             <div>
-              <div className="text-xl md:text-2xl font-display leading-tight" style={{ color: "#1A1A5E", fontFamily: "'Fredoka One', cursive" }}>
+              <div className="text-sm md:text-2xl font-display leading-tight" style={{ color: "#1A1A5E", fontFamily: "'Fredoka One', cursive" }}>
                 TOY & JOY PLAYZONE
               </div>
-              <div className="text-xs md:text-sm font-bold text-orange-400 -mt-0.5 tracking-wide flex justify-between italic">
+              <div className="text-xs md:text-sm font-bold text-orange-400 -mt-0.5 tracking-wide flex justify-between gap-2 italic flex-wrap md:flex-nowrap md:gap-0">
                 <span>Preschool</span>
                 <span>Because we care...</span>
               </div>
