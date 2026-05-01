@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import InquiryForm from "./InquiryForm";
 import { IMAGES } from "../data";
+import heroimage from '../assets/image/image22.png'
 
 export default function Hero({ onEnquire }) {
   const ref = useRef(null);
@@ -135,7 +136,7 @@ export default function Hero({ onEnquire }) {
           <div className="relative mb-4">
             <div className="rounded-3xl overflow-hidden shadow-xl h-52">
               <img
-                src={IMAGES.heroKids}
+                src={heroimage}
                 alt="Happy children at Toy & Joy Playzone Play School"
                 className="w-full h-full object-cover"
               />
