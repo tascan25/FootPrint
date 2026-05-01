@@ -49,9 +49,9 @@ export const childFade = {
 
 // ── Site Data ─────────────────────────────────────────────────────────────────
 export const STATS = [
-  { value: "14+",  label: "Years of Trust",     icon: "🏆" },
+  { value: "10+",  label: "Years of Trust",     icon: "🏆" },
   { value: "1", label: "Single Premier Location in Raj Nagar Extension ", icon: "🏫" },
-  { value: "1.5K+",label: "Happy Children",     icon: "👶" },
+  { value: "1.2K+",label: "Happy Children",     icon: "👶" },
   { value: "4.8★", label: "Parent Rating",      icon: "⭐" },
 ];
 
