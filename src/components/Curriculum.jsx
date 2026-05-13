@@ -117,14 +117,14 @@ export default function Curriculum() {
           </div>
 
           {/* Floating badges */}
-          <motion.div
+          {/* <motion.div
             animate={{ y: [0, -8, 0] }}
             transition={{ duration: 3, repeat: Infinity }}
             className="absolute -top-4 -right-4 bg-white rounded-2xl shadow-xl p-3 text-center border-2 border-orange-100"
           >
             <div className="text-2xl">🏅</div>
             <div className="text-xs font-black text-slate-600">Award Won</div>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
 
         {/* Right: Text */}
